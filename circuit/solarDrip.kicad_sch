@@ -896,6 +896,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:2N7002E"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3097,7 +3179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e650e1-72ea-448a-9878-48204374cbc8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01"
 			(at 27.94 34.29 0)
 			(effects
 				(font
@@ -3147,7 +3229,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR021")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3163,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bef44e4-ac53-4786-8cdd-eef2491ec937")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -3213,7 +3295,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1488207e-5dac-4c0d-9045-ef6901551dd3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 142.24 67.31 0)
 			(effects
 				(font
@@ -3421,7 +3503,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3437,7 +3519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c59f6d-3720-4971-86e2-cf24537af6f2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 200.66 135.89 0)
 			(effects
 				(font
@@ -3487,7 +3569,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3503,7 +3585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23dd2787-b517-4698-b0dc-4b811d060c40")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -3553,7 +3635,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3569,7 +3651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253aa950-e1dc-48c9-8830-f8ba01fcc65b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 48.26 80.01 0)
 			(effects
 				(font
@@ -3619,7 +3701,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a78300d-c556-4439-b4fd-1be62850c2a6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 149.86 138.43 0)
 			(effects
 				(font
@@ -3773,7 +3855,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3923,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4290d2-39f9-4969-81ca-6e8551adc9c2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -3973,7 +4055,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3989,7 +4071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449c401b-b095-4790-a24e-9d57884c2364")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR02"
 			(at 27.94 52.07 0)
 			(effects
 				(font
@@ -4039,7 +4121,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR022")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4124,7 +4206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "527c6bd3-409d-4404-9647-ecaa10ac4718")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 54.61 40.6399 0)
 			(effects
 				(font
@@ -4178,7 +4260,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4268,7 +4350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616ed864-d3aa-4999-8455-0975e98be472")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 48.26 128.27 0)
 			(effects
 				(font
@@ -4318,7 +4400,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4474,7 +4556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efc482e-0d6f-4d41-aec0-12fb72975a6a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 142.24 50.8 0)
 			(effects
 				(font
@@ -4524,7 +4606,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR010")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4540,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7238e9b5-22a8-413b-ac05-a8024804f45c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 140.97 25.4 0)
 			(effects
 				(font
@@ -4590,7 +4672,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79bb1d88-574e-4358-ad1c-82b26b4fec8a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -4656,7 +4738,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4672,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f3a1c41-48da-432c-962e-a69baa6f1a9d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 166.37 135.89 0)
 			(effects
 				(font
@@ -4722,7 +4804,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4738,7 +4820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8308e764-0546-4064-b7b1-6a394bfda056")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 208.28 74.93 90)
 			(effects
 				(font
@@ -4790,7 +4872,71 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "R1")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 156.21 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84cdd39c-df16-4bf5-9b37-ccac2a19c0b4")
+		(property "Reference" "H1"
+			(at 34.29 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4806,7 +4952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6e5ff7-ecd0-4569-8ed7-ce14466a1522")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -4856,7 +5002,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4872,7 +5018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2114914-0240-4e0d-8cfd-7202b409d8ff")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 30.48 33.0199 0)
 			(effects
 				(font
@@ -4926,7 +5072,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4942,7 +5088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae620efb-b0aa-4c99-b4a2-71e7ecd09282")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR013"
 			(at 132.08 25.4 0)
 			(effects
 				(font
@@ -4992,7 +5138,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR023")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5007,7 +5153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5cc1698-8b1f-4647-b37b-b4a41a8b72bf")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 30.48 40.6399 0)
 			(effects
 				(font
@@ -5061,7 +5207,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5198,7 +5344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b994cbdc-7fdf-4585-8522-16175f199a1c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR05"
 			(at 52.07 34.29 0)
 			(effects
 				(font
@@ -5248,7 +5394,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR019")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5264,7 +5410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba89623c-03ec-4ad5-82a9-7aaca570a5d7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR024"
 			(at 219.71 80.01 0)
 			(effects
 				(font
@@ -5314,7 +5460,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5330,7 +5476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc7976f0-3f78-4149-a9a8-e2021620eb4b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 82.55 40.64 0)
 			(effects
 				(font
@@ -5380,7 +5526,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5396,7 +5542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c025c461-a3c5-4185-8b84-8c0cd8902518")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR06"
 			(at 52.07 52.07 0)
 			(effects
 				(font
@@ -5446,7 +5592,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR020")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6fad248-c7b9-404c-bb15-a1a061a928e3")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 54.61 33.0199 0)
 			(effects
 				(font
@@ -5516,7 +5662,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5608,7 +5754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0d3cfb5-08a7-43d1-be0b-2b47ef5f951e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -5658,7 +5804,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e42c34bb-b525-4521-9dba-0dd7647333c9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -5724,7 +5870,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e545c573-aaee-47a6-ba25-ae4f8bea3411")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 182.88 135.89 0)
 			(effects
 				(font
@@ -5790,7 +5936,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5806,7 +5952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb150d34-3900-40bd-a22d-6d83ee45bd8f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR015"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -5856,7 +6002,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR024")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5872,7 +6018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4ffae7f-74b0-4dd5-8b73-22bc5c23b728")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -5922,7 +6068,7 @@
 		(instances
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "#PWR011")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5993,6 +6139,70 @@
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd5003a0-eff8-4eb0-abf8-f193a15bac78")
+		(property "Reference" "H2"
+			(at 34.29 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "H2")
 					(unit 1)
 				)
 			)
