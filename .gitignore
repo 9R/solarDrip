@@ -1,0 +1,6 @@
+*.FCBak
+*.lck
+*-bak
+*cache
+*-table
+*-backups/
