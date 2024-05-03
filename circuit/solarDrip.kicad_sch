@@ -613,29 +613,27 @@
 				)
 			)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -656,7 +654,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -674,7 +672,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -683,7 +681,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -696,8 +694,30 @@
 					)
 				)
 				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -751,7 +771,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -952,7 +972,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -1010,7 +1030,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1136,7 +1156,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,6 +1164,42 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1180,151 +1236,6 @@
 						)
 					)
 					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1579,6 +1490,150 @@
 				)
 			)
 			(symbol "1N4001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:B130-E3"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B130-E3"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B130-E3_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B130-E3_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3272,12 +3327,6 @@
 		)
 	)
 	(junction
-		(at 219.71 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f9c4fa6-acb2-4488-88a6-713868eb7c9a")
-	)
-	(junction
 		(at 133.35 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3300,6 +3349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bee12754-4b37-4da1-88a0-aeae13bbffa8")
+	)
+	(junction
+		(at 219.71 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c6ce6e-abc6-4782-a949-4ecf3247bbf4")
 	)
 	(junction
 		(at 48.26 114.3)
@@ -3391,6 +3446,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 45.72) (xy 234.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfb6f34-9c8b-44e6-9061-7aab6b8129a6")
+	)
+	(wire
+		(pts
 			(xy 173.99 35.56) (xy 180.34 35.56)
 		)
 		(stroke
@@ -3458,6 +3523,16 @@
 			(type default)
 		)
 		(uuid "4403c32e-fb39-4b83-b5cc-9fd6a9b2bf6e")
+	)
+	(wire
+		(pts
+			(xy 234.95 50.8) (xy 234.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b9c801-2b42-47ba-9083-58312f9008a5")
 	)
 	(wire
 		(pts
@@ -4963,10 +5038,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16d8eed9-388a-4c5b-bd8f-3b29cd92227f")
 		(property "Reference" "R6"
-			(at 135.89 69.8499 0)
+			(at 129.54 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5049,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 135.89 72.3899 0)
+			(at 135.89 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,107 +5094,6 @@
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 219.71 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d2c9b84-2472-4bf1-a4d0-e05cc67aa116")
-		(property "Reference" "P1"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 219.71 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B1"
-			(uuid "c7cf27ef-1902-444e-a9a1-3d8652e6a17d")
-		)
-		(pin "B9"
-			(uuid "7c9b5df9-d6de-4ab8-b9d0-f1a272b5e301")
-		)
-		(pin "A5"
-			(uuid "1d679652-db80-4be1-b32c-cf3cc56d57ef")
-		)
-		(pin "A12"
-			(uuid "d379c1c2-1c63-4e1d-8ecb-f812f96d5f82")
-		)
-		(pin "A4"
-			(uuid "76002541-9077-460e-a2d8-83384c8a4902")
-		)
-		(pin "B12"
-			(uuid "e8ee9c42-9662-4fee-844c-059e875c5646")
-		)
-		(pin "A6"
-			(uuid "24dcb0e7-4220-4710-917e-4442ff819e32")
-		)
-		(pin "A1"
-			(uuid "a3c08b7f-76d5-4f76-a56d-a3811fa26986")
-		)
-		(pin "A7"
-			(uuid "598dc720-89b0-4338-b0c1-5f728c06863a")
-		)
-		(pin "A9"
-			(uuid "bb9c2ce3-2800-440b-a61f-69ba071b60b4")
-		)
-		(pin "B5"
-			(uuid "f0d51687-23b6-4d4f-884b-837838102820")
-		)
-		(pin "S1"
-			(uuid "f4457760-6145-48f7-8493-6d7281d413c5")
-		)
-		(pin "B4"
-			(uuid "aee0bf28-a3d1-4c5e-a8e9-96fab1ffd559")
-		)
-		(instances
-			(project "solarDrip"
-				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -5883,75 +5856,6 @@
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 147.32 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d9c2eab-db83-4f26-a208-8a7e8164069a")
-		(property "Reference" "D2"
-			(at 149.352 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 144.018 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed1734e8-1a21-4337-8d7e-5b95f55c42fd")
-		)
-		(pin "2"
-			(uuid "703938f5-c5fb-49ef-86eb-d1ac3df6b19d")
-		)
-		(instances
-			(project "solarDrip"
-				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7026,6 +6930,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:B130-E3")
+		(at 147.32 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc6ac88d-8ddf-43bb-884a-913b4cb9927c")
+		(property "Reference" "D3"
+			(at 143.51 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B130-E3"
+			(at 149.86 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 151.765 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8985d8a2-0748-4d8c-b4e0-f7d11e1ef9f4")
+		)
+		(pin "2"
+			(uuid "3889c73a-fd27-4c2a-b7b7-a80009e3de28")
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 223.52 101.6 0)
 		(unit 1)
@@ -7152,6 +7125,113 @@
 			(project "solarDrip"
 				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 219.71 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d406cfef-1f5f-4153-84d6-4559b0b46fe3")
+		(property "Reference" "J8"
+			(at 219.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 219.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B9"
+			(uuid "91c6ffe2-d809-4a3a-953a-2af1bd7864c3")
+		)
+		(pin "A6"
+			(uuid "01e09cbe-31e0-4778-8e62-f3e708fb86c7")
+		)
+		(pin "A9"
+			(uuid "cc3c23d5-ecae-4092-9cce-da1e7296689b")
+		)
+		(pin "A7"
+			(uuid "8fa5dea7-ac78-4761-9bb4-8f52c9b417e1")
+		)
+		(pin "A5"
+			(uuid "e3b66759-2c57-4953-ad3f-78fb438caa4d")
+		)
+		(pin "B6"
+			(uuid "d5c9f5b1-0717-41e1-9661-ad32165907de")
+		)
+		(pin "B7"
+			(uuid "4bd74c9b-bad9-4b42-91c6-6b173e8fed61")
+		)
+		(pin "A4"
+			(uuid "2398b7b3-6250-4099-91fc-264577461fb5")
+		)
+		(pin "B1"
+			(uuid "9730d038-4c03-4f26-bb03-fbda7b356e49")
+		)
+		(pin "A12"
+			(uuid "fa2f6c24-a7ed-4871-a7b5-a0f6d3c705fe")
+		)
+		(pin "B12"
+			(uuid "8fd77fe7-501c-4aab-b59a-ab7356a28b21")
+		)
+		(pin "A1"
+			(uuid "a735afc5-bbc4-462c-bebd-eaa25a140d8c")
+		)
+		(pin "B4"
+			(uuid "6c3b1e4f-4515-4dd9-8972-150d42a89357")
+		)
+		(pin "B5"
+			(uuid "5238fac7-f14f-44ea-8694-e401189b3986")
+		)
+		(pin "S1"
+			(uuid "b5c3b3bb-e18e-4187-9ef4-1f7f8b8afde9")
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "J8")
 					(unit 1)
 				)
 			)
