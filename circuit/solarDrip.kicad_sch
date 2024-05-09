@@ -5036,7 +5036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "soil_moisture"
+		(property "Value" "soil"
 			(at 210.566 67.31 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 239.522 114.3 90)
 			(effects
 				(font
@@ -6014,7 +6014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 181.61 116.84 0)
 			(effects
 				(font
@@ -6180,7 +6180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "water_level"
+		(property "Value" "water"
 			(at 247.65 67.564 0)
 			(effects
 				(font
@@ -6328,7 +6328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 195.072 115.57 90)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 203.962 115.57 90)
 			(effects
 				(font
@@ -7131,7 +7131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "solar_panel"
+		(property "Value" "solar"
 			(at 213.36 39.37 0)
 			(effects
 				(font
@@ -8182,7 +8182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "battery"
+		(property "Value" "batt"
 			(at 215.646 24.13 0)
 			(effects
 				(font
