@@ -4284,6 +4284,12 @@
 		(uuid "4d3eb6cb-510e-4e0b-bb13-845554f86a6b")
 	)
 	(junction
+		(at 105.41 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697e4606-ea63-4d28-a776-0301b9285e21")
+	)
+	(junction
 		(at 257.81 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4306,6 +4312,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c8806e8-daf1-4463-a9a1-ac735f1872a8")
+	)
+	(junction
+		(at 114.3 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97b3c1bc-46aa-4a31-b0cf-bf06cda6eca0")
 	)
 	(junction
 		(at 68.58 128.27)
@@ -4391,10 +4403,6 @@
 		(color 0 0 0 0)
 		(uuid "fec01a24-8c6c-448d-8959-e526f4901272")
 	)
-	(no_connect
-		(at 269.24 151.13)
-		(uuid "e3ae07cd-4653-4311-a204-b3a2e5b648a1")
-	)
 	(wire
 		(pts
 			(xy 31.75 181.61) (xy 36.83 181.61)
@@ -4477,6 +4485,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 121.92) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100f2022-a633-4ccf-bd45-f1dcb8855de5")
+	)
+	(wire
+		(pts
 			(xy 44.45 57.15) (xy 54.61 57.15)
 		)
 		(stroke
@@ -4527,6 +4545,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 130.81) (xy 105.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d73df5-338b-4736-a81f-6247b48a2e4e")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3933c8-8ea6-4cff-927d-f2fc87f737f0")
+	)
+	(wire
+		(pts
 			(xy 146.05 118.11) (xy 146.05 120.65)
 		)
 		(stroke
@@ -4547,7 +4585,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 130.81) (xy 114.3 138.43)
+			(xy 114.3 127) (xy 114.3 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4694,6 +4732,16 @@
 			(type default)
 		)
 		(uuid "4089bb0c-94f7-4d58-8491-c4bd95209b07")
+	)
+	(wire
+		(pts
+			(xy 105.41 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f3c6f1-a924-4405-9ac0-18b985006948")
 	)
 	(wire
 		(pts
@@ -4907,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 114.3 120.65)
+			(xy 114.3 111.76) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 106.68 125.73)
+			(xy 104.14 121.92) (xy 105.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5094,6 +5142,16 @@
 			(type default)
 		)
 		(uuid "b5acda08-f364-41af-bef5-497d2716bab7")
+	)
+	(wire
+		(pts
+			(xy 105.41 121.92) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6aea068-784a-4075-8496-ffae1ff09d2d")
 	)
 	(wire
 		(pts
@@ -5297,6 +5355,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 121.92) (xy 106.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1885153-bd4f-41f7-89eb-ac82bdd5634b")
+	)
+	(wire
+		(pts
 			(xy 142.24 71.12) (xy 162.56 71.12)
 		)
 		(stroke
@@ -5362,8 +5430,8 @@
 		(uuid 345bc653-6515-4f89-b639-a7cd09cea08c)
 	)
 	(rectangle
-		(start 231.14 138.43)
-		(end 283.21 162.56)
+		(start 176.53 151.13)
+		(end 228.6 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -5494,7 +5562,7 @@
 	)
 	(text "Bling"
 		(exclude_from_sim no)
-		(at 234.95 140.716 0)
+		(at 180.34 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6085,7 +6153,7 @@
 	)
 	(global_label "out_sensors"
 		(shape input)
-		(at 104.14 125.73 180)
+		(at 95.25 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6095,7 +6163,7 @@
 		)
 		(uuid "49efcc60-04d7-4e6a-ab1f-183a621e3b69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9064 125.73 0)
+			(at 81.0164 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6659,7 @@
 	)
 	(global_label "vcc_sensor_low"
 		(shape input)
-		(at 114.3 115.57 90)
+		(at 114.3 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6601,7 +6669,7 @@
 		)
 		(uuid "864e5f8f-cfa0-46fa-bdcc-2091920ff70c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 98.1311 90)
+			(at 114.3 94.3211 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,6 +7391,69 @@
 		)
 	)
 	(symbol
+		(lib_id "logos:logo")
+		(at 215.9 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "024477d4-fde0-47d9-b606-980985de11ed")
+		(property "Reference" "J14"
+			(at 219.71 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Logo_oshw"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Symbol:OSHW-Logo_5.7x6mm_SilkScreen"
+			(at 215.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 215.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 93.98 181.61 0)
 		(unit 1)
@@ -7738,7 +7869,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f7c1b2e-0198-4301-8192-706379262cb4")
 		(property "Reference" "#PWR07"
 			(at 140.97 147.32 0)
@@ -8237,6 +8367,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 100.33 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3288ec85-f138-4a4f-8298-219549ed89ee")
+		(property "Reference" "R10"
+			(at 100.33 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 100.33 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 100.33 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb97e537-9a95-4567-8337-89ffdd84c927")
+		)
+		(pin "1"
+			(uuid "c36e2410-df9b-497c-bc38-8eceb66e7bec")
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 182.88 0)
 		(unit 1)
@@ -8505,7 +8702,7 @@
 	)
 	(symbol
 		(lib_id "logos:logo")
-		(at 238.76 149.86 0)
+		(at 187.96 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8513,7 +8710,7 @@
 		(dnp no)
 		(uuid "3bb23d27-24ca-4d2c-ab04-07dc7fc32c81")
 		(property "Reference" "J11"
-			(at 242.57 148.5899 0)
+			(at 191.77 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8719,7 @@
 			)
 		)
 		(property "Value" "Logo_bot"
-			(at 234.442 146.05 0)
+			(at 183.642 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8728,7 @@
 			)
 		)
 		(property "Footprint" "my_footprints:logo_solardrip"
-			(at 238.76 149.86 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 149.86 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +8746,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 238.76 149.86 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,6 +9477,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 105.41 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f470296-7a79-4920-90a0-4278b49a1677")
+		(property "Reference" "R11"
+			(at 102.87 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 107.95 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.188 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de66b54f-d052-4320-829e-e0c0128a5553")
+		)
+		(pin "1"
+			(uuid "d06c42f7-2460-4080-97ce-4b26375a0f1c")
+		)
+		(instances
+			(project "solarDrip"
+				(path "/6377a484-fa16-4056-97a2-452f2b7af807"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 62.23 0)
 		(unit 1)
@@ -9479,7 +9743,7 @@
 	)
 	(symbol
 		(lib_id "logos:logo")
-		(at 251.46 149.86 0)
+		(at 201.93 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9487,7 +9751,7 @@
 		(dnp no)
 		(uuid "6a663203-fcb7-4a7a-84b3-0c1a9074c76b")
 		(property "Reference" "J12"
-			(at 255.27 148.5899 0)
+			(at 205.74 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9760,7 @@
 			)
 		)
 		(property "Value" "Logo_µc3"
-			(at 247.65 146.05 0)
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9769,7 @@
 			)
 		)
 		(property "Footprint" "my_footprints:muccc_logo"
-			(at 251.46 149.86 0)
+			(at 201.93 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 149.86 0)
+			(at 201.93 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9787,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 251.46 149.86 0)
+			(at 201.93 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +12235,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002E")
-		(at 111.76 125.73 0)
+		(at 111.76 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11979,7 +12243,7 @@
 		(dnp no)
 		(uuid "d9278b77-a20b-4d35-b7cc-9945e7de4dbc")
 		(property "Reference" "Q1"
-			(at 120.65 127 90)
+			(at 120.65 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +12252,7 @@
 			)
 		)
 		(property "Value" "2N7002K"
-			(at 118.11 126.9999 90)
+			(at 118.11 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11997,7 +12261,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.84 127.635 0)
+			(at 116.84 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +12272,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30376.pdf"
-			(at 116.84 129.54 0)
+			(at 116.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12282,7 @@
 			)
 		)
 		(property "Description" "0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 111.76 125.73 0)
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
