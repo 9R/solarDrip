@@ -168,6 +168,7 @@
 		(property "Value" "GND"
 			(at -3.175 0.127 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "431d8ced-2758-437d-b5b6-0948d231b3c3")
 			(effects
 				(font
@@ -867,6 +868,7 @@
 		(property "Value" "solar"
 			(at 1 -2.75 0)
 			(layer "F.SilkS" knockout)
+			(hide yes)
 			(uuid "e3da12d9-a89b-4299-bc47-16e5436ea63a")
 			(effects
 				(font
@@ -1383,6 +1385,7 @@
 		(property "Value" "pump"
 			(at 1.15 -2.75 0)
 			(layer "F.SilkS" knockout)
+			(hide yes)
 			(uuid "c43e9bb9-946c-436b-91e4-160c094b2518")
 			(effects
 				(font
@@ -2929,6 +2932,7 @@
 		(property "Value" "i2c"
 			(at 3.05 -2.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1a920ed3-72d1-4a4a-8f88-b46c4cec0b49")
 			(effects
 				(font
@@ -4795,6 +4799,7 @@
 		(property "Value" "GP20"
 			(at -3.556 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8b669205-688b-4ebb-ba4c-214be271c982")
 			(effects
 				(font
@@ -5118,6 +5123,7 @@
 		(property "Value" "water"
 			(at 2.0254 -2.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "440b8eb6-c3ea-4512-949e-a66b3238d799")
 			(effects
 				(font
@@ -8122,6 +8128,7 @@
 		(property "Value" "batt"
 			(at 1 -2.75 0)
 			(layer "F.SilkS" knockout)
+			(hide yes)
 			(uuid "2e7e2fa2-9f64-4323-b582-7de25f191f39")
 			(effects
 				(font
@@ -9066,6 +9073,7 @@
 		(property "Value" "solar_charger"
 			(at 8.675 4.925 90)
 			(layer "F.SilkS" knockout)
+			(hide yes)
 			(uuid "808d436a-db92-41d3-9470-eb5fbbdb4b7a")
 			(effects
 				(font
@@ -10819,6 +10827,7 @@
 		(property "Value" "soil"
 			(at 2.127 -2.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e95e5cda-5ee6-486f-a0bf-edd2fb3457fa")
 			(effects
 				(font
@@ -11665,6 +11674,7 @@
 		(property "Value" "ESP32-C3_SUPERMINI"
 			(at 0.593831 -0.484785 0)
 			(layer "F.SilkS" knockout)
+			(hide yes)
 			(uuid "26c6b42d-ca0f-4e21-aab6-cbc08eab4e50")
 			(effects
 				(font
@@ -12956,6 +12966,7 @@
 		(property "Value" "3V3"
 			(at -3.048 0.127 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cc5fc387-d824-4b02-8451-5f6a5a919af2")
 			(effects
 				(font
@@ -13490,6 +13501,7 @@
 		(property "Value" "GP21"
 			(at 3.556 0 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "13220872-d272-4b50-a26b-c13b22cb7140")
 			(effects
 				(font
@@ -13609,6 +13621,7 @@
 		(property "Value" "batt"
 			(at -1.85 0.05 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b9a55b7e-1409-4219-bcce-74b39aff1f7e")
 			(effects
 				(font
@@ -13728,6 +13741,7 @@
 		(property "Value" "3V3"
 			(at 0.127 3.175 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ccc32cc9-fd98-4dec-8d76-07d5ad7f026c")
 			(effects
 				(font
@@ -13847,6 +13861,7 @@
 		(property "Value" "GP6"
 			(at -3.175 -0.127 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8c222ed9-be6b-4421-98a8-54d4804fccf4")
 			(effects
 				(font
@@ -25874,6 +25889,7 @@
 		(property "Value" "GND"
 			(at 0 -2.159 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a8b9afb4-9d12-4a8f-a68b-a2e278e913e8")
 			(effects
 				(font
@@ -26051,6 +26067,7 @@
 		(property "Value" "sol"
 			(at -1.65 0.05 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "974a4298-cb76-4c47-aa2d-7d58f4be47e3")
 			(effects
 				(font
@@ -26346,6 +26363,7 @@
 		(property "Value" "Vi"
 			(at -1.75 0 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "284d9fc5-40b4-4a88-a119-6b70b341455b")
 			(effects
 				(font
@@ -26465,6 +26483,7 @@
 		(property "Value" "GND"
 			(at 3.175 -0.127 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "cd2c079b-1067-44ca-95b3-2de68f50c811")
 			(effects
 				(font
@@ -26642,6 +26661,7 @@
 		(property "Value" "usbpwr"
 			(at -1.65 0.05 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "3cb6b674-1df0-4a5c-bc4a-3cebf1c2beaf")
 			(effects
 				(font
@@ -26761,6 +26781,7 @@
 		(property "Value" "3V3"
 			(at 0 -2.159 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "09f2fbb0-0ca6-427b-b056-ef5b38fc65c1")
 			(effects
 				(font
@@ -27468,6 +27489,7 @@
 		(property "Value" "GP5"
 			(at -3.175 0 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6b5084e6-3b81-4586-ba45-ab75b1d54b26")
 			(effects
 				(font
@@ -27587,6 +27609,7 @@
 		(property "Value" "GP0"
 			(at 0 -2.159 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "db42e8f4-c6e3-4bc2-b296-db4178613c1a")
 			(effects
 				(font
@@ -28055,6 +28078,32 @@
 			(justify right mirror)
 		)
 	)
+	(gr_text "GP21"
+		(at 69.975 71.125 0)
+		(layer "B.SilkS")
+		(uuid "2b602130-c0bf-470e-9fbf-538b0fd66e9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 70.67738 74.575 -0)
+		(layer "B.SilkS")
+		(uuid "2bf8769d-bf88-49ce-b7ac-06ca4823385f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 26.283696 58.5766 -0)
 		(layer "B.SilkS")
@@ -28103,7 +28152,20 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "SolarDripIrrigation v0.1\n9R 05/2024"
+	(gr_text "PB6"
+		(at 59.525 74.55 0)
+		(layer "B.SilkS")
+		(uuid "6f8fd5b8-02d3-45a4-9599-f544ba088f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "SolarDripIrrigation v0.2\n9R 05/2024"
 		(at 24.3 44.675 90)
 		(layer "B.SilkS")
 		(uuid "79715cbb-8047-4e8d-ad53-ed1c0e214cb3")
@@ -28125,6 +28187,19 @@
 				(thickness 0.1)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "batt"
+		(at 47.875 44.8 0)
+		(layer "B.SilkS")
+		(uuid "8223e36c-dcbc-40ed-b041-35c264ea097c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(gr_text "7"
@@ -28235,6 +28310,32 @@
 			(justify left mirror)
 		)
 	)
+	(gr_text "usb"
+		(at 47.875 48.025 0)
+		(layer "B.SilkS")
+		(uuid "beafd97e-73e3-4ec6-90dc-89acb56db7a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "3v3"
+		(at 71.025 77.825 -0)
+		(layer "B.SilkS")
+		(uuid "c894a4ab-2e27-4c03-8856-4131881eaa88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(gr_text "4"
 		(at 65.3 50.52 90)
 		(layer "B.SilkS")
@@ -28245,6 +28346,19 @@
 				(thickness 0.1)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "PG5"
+		(at 59.525 70.65 0)
+		(layer "B.SilkS")
+		(uuid "ce0d5c79-764a-4cf0-bd05-295311c8f9db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(gr_text "10"
@@ -28259,6 +28373,32 @@
 			(justify right mirror)
 		)
 	)
+	(gr_text "sol"
+		(at 47.875 51.525 0)
+		(layer "B.SilkS")
+		(uuid "e519ecd9-c1ac-49db-9def-d71a0f66c7a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "3v3"
+		(at 52.875 43.775 0)
+		(layer "B.SilkS")
+		(uuid "e6c60481-9244-4f01-86ce-f558c11d102c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "Vo"
 		(at 30.703296 58.475 -0)
 		(layer "B.SilkS")
@@ -28267,6 +28407,45 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 56.175 43.775 0)
+		(layer "B.SilkS")
+		(uuid "f266bd0d-af04-477f-9a00-c70fc67d7839")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "GP0"
+		(at 59.55 43.775 0)
+		(layer "B.SilkS")
+		(uuid "f9585f94-2b50-4668-b7a6-98b6b90da19a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "Vi"
+		(at 47.875 41.525 0)
+		(layer "B.SilkS")
+		(uuid "fa457c22-4cac-41ce-88ff-77e4186f5c66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify right bottom mirror)
 		)
@@ -28307,6 +28486,32 @@
 			(justify right)
 		)
 	)
+	(gr_text "batt"
+		(at 26.35 79.525 0)
+		(layer "F.SilkS" knockout)
+		(uuid "483b52ae-e1d4-4299-9d8b-f3fac2552419")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "solar"
+		(at 32.875 79.525 0)
+		(layer "F.SilkS" knockout)
+		(uuid "49c0d4d9-1e14-431e-b0ed-f2b764e743e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "1"
 		(at 72.93 46.005 90)
 		(layer "F.SilkS")
@@ -28329,6 +28534,19 @@
 				(thickness 0.1)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "GP20"
+		(at 74.05 71.125 0)
+		(layer "F.SilkS")
+		(uuid "509deec3-9ab3-457b-8eba-e8312fd72da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "SD05CRMA"
@@ -28391,6 +28609,19 @@
 			(justify right)
 		)
 	)
+	(gr_text "ESP32C3 supermini"
+		(at 59.425 57.05 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8a360ed8-c956-4ea3-9376-bc5e784e43d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "6"
 		(at 60.34 66.915 90)
 		(layer "F.SilkS")
@@ -28401,6 +28632,19 @@
 				(thickness 0.1)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "pump"
+		(at 39.95 79.55 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a0054a7c-8cd4-4243-b8f3-e297f4376a33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "20"
@@ -28463,6 +28707,45 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "i2c"
+		(at 67.675 79.45 0)
+		(layer "F.SilkS")
+		(uuid "c1e8b303-d1af-46bc-9102-a276e617cddc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "solar_charger"
+		(at 27.575 75.375 90)
+		(layer "F.SilkS" knockout)
+		(uuid "ca90eda8-10d5-4182-9dcb-84cdbad5f3f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3v3"
+		(at 73.925 77.825 0)
+		(layer "F.SilkS")
+		(uuid "d17e7dd3-5535-4443-bb0b-beba142e80af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "bridge if\nsolar only"
 		(at 36.15 55.8625 0)
 		(layer "F.SilkS")
@@ -28471,6 +28754,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "soil"
+		(at 57.5 79.475 0)
+		(layer "F.SilkS")
+		(uuid "dc212ac8-fe33-4653-ad28-d049fd72f0c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -28535,6 +28831,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "water"
+		(at 47.925 79.525 0)
+		(layer "F.SilkS")
+		(uuid "f642a419-b7de-4e05-8344-20b1c0b7c2fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 70.75 40.7 0)
 		(layer "F.SilkS")
@@ -28543,6 +28852,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 73.95 74.575 0)
+		(layer "F.SilkS")
+		(uuid "fd542ccc-2830-418e-b151-28380a527cb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify right bottom)
 		)
@@ -31154,7 +31476,7 @@
 		)
 		(polygon
 			(pts
-				(xy 16.75 33.75) (xy 79.25 33.75) (xy 79.25 91.975) (xy 16.75 91.975)
+				(xy 16.775 32.375) (xy 79.275 32.375) (xy 79.25 91.975) (xy 16.75 91.975)
 			)
 		)
 		(filled_polygon
@@ -38552,7 +38874,7 @@
 		)
 		(polygon
 			(pts
-				(xy 81.57654 34.747233) (xy 19.3 34.775) (xy 19.25 92.15) (xy 81.57654 92.247233)
+				(xy 81.57654 34.747233) (xy 19.3 34.775) (xy 19.2 95.425) (xy 81.52654 95.522233)
 			)
 		)
 		(filled_polygon
